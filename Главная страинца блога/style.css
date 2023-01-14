@@ -23,17 +23,14 @@
   
   .header_search{
     position: relative;
+    margin:0 auto;
     border: 0;
-    font-family: "Inter-Regular";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #718096;
+  
   }
   .header_search::before{
     position:absolute;
-    right: 60px;
-    top: 15px;
+    left: -17px;
+    
     content: url("images/Vector.svg");
     color: black;
     background: white;
@@ -41,6 +38,15 @@
     width: 17px;
     height: 17px;
   }
+  .input{
+    border: 0;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+}
   .header_nav{
       display: -webkit-box;
       display: -ms-flexbox;
