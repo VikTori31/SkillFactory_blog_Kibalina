@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,200;1,400;1,700&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="slider.js"></script>
     <title>Design studio page</title>
 </head>
 <body>
@@ -51,50 +52,49 @@
        </section>
        <section class="gallery">
         <div class="container">
-            <ul class="gallery-menu none-mobile">
-                <li class ="gallery-menu__item curcor"><a class="gallery-menu__link selection2" href="">Rostov-on-Don, Admiral</a></li>
-                <li class ="gallery-menu__item curcor"><a class="gallery-menu__link" href="">Sochi Thieves</a></li>
-                <li class ="gallery-menu__item curcor"><a class="gallery-menu__link" href="">Rostov-on-Don Patriotic</a></li>
-            </ul>
+            <nav class="slider_menu none-mobile">
+            </nav>
             <div class="flexed2">
-            <div class="gallery-text">
-                <h2 class="gallery-text__subtitle">Completed<br>projects</h2>
-                <p class="galerry-text__description">
-                    Only a small part of the work performed by our company is presented<br class="none-mobile"> on the site. For 14 years on in the construction<br>
-                    market we have made happy more than 1000 families
-                </p>
+                <div>
+                    <div class="flexed_gallary">
+                      <h2 class="subtitle">Completed<br>projects</h2>
+                      <div class="polosa"></div>
+                    </div>
+                     <p class="description">
+                         Only a small part of the work performed by our company is presented<br> on the site. For 14 years on in the construction<br>
+                         market we have made happy more than 1000 families
+                     </p>            
                 <div class="gallery-mobile" aria-label="completed-project_guest-room">
                    <div class="gallery-mobile__scroll"><img src="images/scroll-ellipse-mobile.svg" alt="Scroll-botton" class="scroll-botton curcor">
                     <img src="images/scroll-ellipse-mobile.svg" alt="Scroll-botton" class="scroll-botton right curcor">
                 </div>
                 </div>                
-                <div class="gallery-text__grid">
-                    <div class="gallery-text__grid__data">
-                        <h3 class="gallery-text__grid__data__name">City:</h3>
-                        <span class="gallery-text__grid__data__fact">Rostov-on-Don<br>
-                            LCD admiral</span>
+                <div class="grid">
+                    <div class="grid_block city">
+                        <h3 class="name">City:</h3>
+                        
                     </div>
-                    <div class="gallery-text__grid__data">
-                        <h3 class="gallery-text__grid__data__name">apartment area:</h3>
-                        <span class="gallery-text__grid__data__fact">81 m2</span>
+                    <div class="grid_block area">
+                        <h3 class="name">apartment area:</h3>
+                        
                     </div>
-                    <div class="gallery-text__grid__data">
-                        <h3 class="gallery-text__grid__data__name">Repair time:</h3>
-                        <span class="gallery-text__grid__data__fact">3.5 months</span>
+                    <div class="grid_block time">
+                        <h3 class="name">Repair time:</h3>
+                        
                     </div>
-                    <div class="gallery-text__grid__data">
-                        <h3 class="gallery-text__grid__data__name">Repair Cost:</h3>
-                        <span class="gallery-text__grid__data__fact">Upon request</span>
+                    <div class="grid_block">
+                        <h3 class="name">Repair Cost:</h3>
+                        <span class="fact">Upon request</span>
                     </div>                 
                 </div>
-                <div class="gallery-text__strokes none-mobile">
-                    <div class="gallery-text__strokes__stroke1 curcor"></div>
-                    <div class="gallery-text__strokes_points"></div>
-                    <div class="gallery-text__strokes__stroke2 curcor"></div>
+                <div class="slider_scroll">
+                    <div class="slider_scroll left"></div>
+                    <div class="slider_scroll right"></div>
+                    <div class="slider__dots"></div>
                 </div>
             </div>
-            <div class="gallery-image none-mobile"></div>                   
-        </div>
+            <div class="slider__images"></div>  
+            </div>  
         </div>
        </section>
        <section class="video">
